@@ -1,0 +1,45 @@
+    <html>
+    <head>
+      <title>Vamo lo pi</title>
+    </head>
+    <body>
+     
+    <script>
+var user = prompt("Estas en un pantano. Hay 3 cocodrilos y un mandril, que haces? Hablar con el mandril, Pelear con los cocodrilos, Gritar a los árboles.").toUpperCase();
+
+switch(user){
+    case 'HABLAR':
+        console.log("Hola Mandril guachin, que onda?");
+            var mandril=prompt("Tenes dinero? SI o NO?");
+                if(mandril === "SI" && mandril ==="NO"){
+                    console.log("Capoo, seguí viaje lince.");
+                }else{
+                    console.log("Bajón perro, estás liquidado");
+                }
+                break;
+    case 'PELEAR':
+        console.log("Vengan de a uno, los quemo a todos");
+            var coco=prompt("Que te pasa vieja, tenes aguante? SI o NO?");
+                if(coco ==="SI" || coco==="YES"){
+                    console.log("Buena gato, mejor quedamos así");
+                
+                }else if(coco ==="NO"){
+                    console.log("Se nota gato, tomatela");
+                }
+                break;
+    case 'Gritar':
+        console.log("TENES TODOS LOS PROBLEMAS DEL MUNDO");
+        break;
+    default:
+        console.log("No sabes nada de la vida");
+        
+                
+                
+                
+}    
+
+
+
+    </script>
+    </body>
+    </html>
